@@ -1,0 +1,11 @@
+﻿  OS_LR2.cpp
+  ReservReg.cpp
+  Создание кода...
+LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/FORCE"
+OS_LR2.obj : warning LNK4006: "void __cdecl GetInfoOfSystem(void)" (?GetInfoOfSystem@@YAXXZ) уже определен в GetInfoOfSystem.obj; второе определение пропущено
+OS_LR2.obj : warning LNK4006: "void __cdecl MemStatus(void)" (?MemStatus@@YAXXZ) уже определен в MemStatus.obj; второе определение пропущено
+OS_LR2.obj : warning LNK4006: "void __cdecl OEM(unsigned long)" (?OEM@@YAXK@Z) уже определен в GetInfoOfSystem.obj; второе определение пропущено
+ReservReg.obj : warning LNK4006: "void __cdecl ReservReg(void)" (?ReservReg@@YAXXZ) уже определен в OS_LR2.obj; второе определение пропущено
+StateMem.obj : warning LNK4006: "void __cdecl StateMem(void)" (?StateMem@@YAXXZ) уже определен в OS_LR2.obj; второе определение пропущено
+C:\Users\nikit\OneDrive\Рабочий стол\OS_LR2\Debug\OS_LR2.exe : warning LNK4088: образ создается из-за параметра /FORCE; образ нельзя запустить
+  OS_LR2.vcxproj -> C:\Users\nikit\OneDrive\Рабочий стол\OS_LR2\Debug\OS_LR2.exe
